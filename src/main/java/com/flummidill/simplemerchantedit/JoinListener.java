@@ -41,25 +41,30 @@ public class JoinListener implements Listener {
             prefixPart1.setBold(true);
             prefix.addExtra(prefixPart1);
 
-            TextComponent prefixPart2 = new TextComponent("Villager");
+            TextComponent prefixPart2 = new TextComponent("Simple");
             prefixPart2.setColor(ChatColor.GREEN);
             prefixPart2.setBold(true);
             prefix.addExtra(prefixPart2);
 
-            TextComponent prefixPart3 = new TextComponent("Edit");
+            TextComponent prefixPart3 = new TextComponent("Merchant");
             prefixPart3.setColor(ChatColor.BLUE);
             prefixPart3.setBold(true);
             prefix.addExtra(prefixPart3);
 
-            TextComponent prefixPart4 = new TextComponent("]");
-            prefixPart4.setColor(ChatColor.RED);
+            TextComponent prefixPart4 = new TextComponent("Edit");
+            prefixPart4.setColor(ChatColor.GREEN);
             prefixPart4.setBold(true);
             prefix.addExtra(prefixPart4);
 
-            TextComponent prefixPart5 = new TextComponent(" ");
-            prefixPart5.setColor(ChatColor.WHITE);
-            prefixPart5.setBold(false);
+            TextComponent prefixPart5 = new TextComponent("]");
+            prefixPart5.setColor(ChatColor.RED);
+            prefixPart5.setBold(true);
             prefix.addExtra(prefixPart5);
+
+            TextComponent prefixPart6 = new TextComponent(" ");
+            prefixPart6.setColor(ChatColor.WHITE);
+            prefixPart6.setBold(false);
+            prefix.addExtra(prefixPart6);
 
 
             // Message 1

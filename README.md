@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://github.com/Flummidill/SimpleMerchantEdit/blob/HEAD/icons/SimpleMerchantEdit-250x250.png?raw=true" alt="VillagerEdit-Icon">
+  <img src="https://github.com/Flummidill/SimpleMerchantEdit/blob/HEAD/icons/SimpleMerchantEdit-250x250.png?raw=true" alt="SimpleMerchantEdit-Icon">
   
   <h1>SimpleMerchantEdit</h1>
-  <a href="https://modrinth.com/plugin/villager_edit/versions">
-    <img src="https://img.shields.io/modrinth/dt/villager_edit?style=for-the-badge&label=Downloads&color=29A100">
+  <a href="https://modrinth.com/plugin/simple_merchant_edit/versions">
+    <img src="https://img.shields.io/modrinth/dt/simple_merchant_edit?style=for-the-badge&label=Downloads&color=29A100">
   </a>
 </div>
 
