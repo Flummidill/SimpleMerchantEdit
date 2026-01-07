@@ -1,0 +1,17 @@
+# # # # # # # # # # # # # # # # # # #
+# SimpleMerchantEdit  Configuration #
+#           By Flummidill           #
+# # # # # # # # # # # # # # # # # # #
+
+# Allow Editing Villagers (Default: true)
+# Must be true or false
+edit-villagers: true
+
+# Allow Editing Wandering Traders (Default: true)
+# Must be true or false
+edit-wandering-traders: true
+
+
+# The Config Version
+# Do not change this Value
+config-version: ${project.version}

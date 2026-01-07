@@ -1,0 +1,22 @@
+name: SimpleMerchantEdit
+main: com.flummidill.simplemerchantedit.SimpleMerchantEdit
+version: ${project.version}
+api-version: 1.13
+permissions:
+  simplemerchantedit.admin:
+    description: Allows use of all Admin Features
+    default: op
+    children:
+      simplemerchantedit.edit: true
+  simplemerchantedit.edit:
+    description: Allows Editing Villagers and Wandering Traders
+    default: op
+    children:
+      simplemerchantedit.edit.villager: true
+      simplemerchantedit.edit.wandering_trader: true
+  simplemerchantedit.edit.villager:
+    description: Allows Editing Villagers
+    default: op
+  simplemerchantedit.edit.wandering_trader:
+    description: Allows Editing Wandering Traders
+    default: op
