@@ -1,5 +1,6 @@
 package com.flummidill.simplemerchantedit;
 
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -12,13 +13,14 @@ import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-
 import java.util.UUID;
+
 
 public class EditorEventListener implements Listener {
 
     private final SimpleMerchantEdit plugin;
     private final MerchantManager manager;
+
 
     public EditorEventListener(SimpleMerchantEdit plugin, MerchantManager manager) {
         this.plugin = plugin;

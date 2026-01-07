@@ -1,5 +1,6 @@
 package com.flummidill.simplemerchantedit;
 
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -10,8 +11,8 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.MerchantRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
-
 import java.util.*;
+
 
 public class MerchantManager {
 
@@ -23,6 +24,7 @@ public class MerchantManager {
     public final Map<Inventory, UUID> openEditors = new HashMap<>();
     public final Map<Inventory, Map<Integer, SettingsContext>> columnSettings = new HashMap<>();
     public final Map<Inventory, SettingsGUIContext> openSettings = new HashMap<>();
+
 
     public MerchantManager(SimpleMerchantEdit plugin) {
         this.plugin = plugin;

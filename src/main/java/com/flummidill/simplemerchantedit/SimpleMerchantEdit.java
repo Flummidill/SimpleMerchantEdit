@@ -27,7 +27,7 @@ public class SimpleMerchantEdit extends JavaPlugin {
         getLogger().info("~ Created by Flummidill ~");
 
         // Initialize Villager-Manager
-        getLogger().info("Initializing Villager-Manager...");
+        getLogger().info("Initializing Merchant-Manager...");
         manager = new MerchantManager(this);
 
         // Initialize Event Listeners
@@ -102,7 +102,7 @@ public class SimpleMerchantEdit extends JavaPlugin {
     }
 
     public String getLatestVersion() {
-        String apiUrl = "https://api.modrinth.com/v2/project/villager_edit/version";
+        String apiUrl = "https://api.modrinth.com/v2/project/simple_merchant_edit/version";
 
         try (HttpClient client = HttpClient.newHttpClient()) {
             HttpRequest request = HttpRequest.newBuilder()

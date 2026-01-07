@@ -9,62 +9,34 @@
 
 
 ## 🎯 Features
-- **Self Whitelisting by Players**  
-They can whitelist themselves by Linking their Discord and Minecraft Accounts.
-This removes the need for manual Whitelisting and can still be restricted by using an Access Role.
+- **Edit Trades**  
+Right-Click a Villager or Wandering Trader to open the Trade Editor GUI.  
+Modify, Add or Remove Trades and their Settings with just a few Clicks.
 
-- **Fast & Easy Account Linking**
-It only takes a few Seconds and is very Easy to do.
-Generate a code on Discord, enter it in Minecraft, and you’re already Done.
+####
 
-- **Automatic Role-Based Whitelisting**  
-When an Account is Linked, the Player automatically receives the configured Whitelist Role on Discord.
-This makes managing Server Access to Players very Simple.
+- **Edit Villager Settings**  
+Click on the Profession, XP or Type Icon in the Editor GUI to Edit the Villager.  
+Easily change their Profession, Level and Appearance.
 
-- **Admin Account Management**  
-Admins can easily remove Linked Accounts by either Kicking the User from the Discord Server or taking away their Whitelist/Access Role.
-This makes Moderation and Account Management Simpler and Efficient.
+####
 
-- **Automatic Nicknames**  
-When a Player Links their Account, their Discord Nickname is automatically Updated to their Minecraft Username every 15 Minutes.
-This makes Identifying Players on the Discord Server Effortless and helps with Moderation.
+- **Fully Vanilla Compatible**  
+Edit normal Vanilla Merchants instead of only being able to modify custom ones (Like with <a href="#">Shopkeepers</a> or <a href="#">VTE</a>).  
+Because of that Merchants keep their Trades, even after Removing the Plugin.
 
 
 <hr/>
 
 
-### DC-Commands:
-```
-/linkmc - Get your Linking/Auth Code
-/unlinkmc - Unlink your Minecraft Account
-```
-
-### MC-Commands:
-```
-/linkdc <Auth-Code> - Link your Discord Account
-/unlinkdc - Unlink your Discord Account
-```
-
-### Admin Commands (DC + MC):
-```
-/forceunlink <Player> [<Remove-Access-Role>] - Unlink another Player's Account
-```
-
 ### Permissions:
 ```
-dcwhitelistlinker.linkdc (Default: true)
-dcwhitelistlinker.unlinkdc (Default: true)
-dcwhitelistlinker.forceunlink (Default: false)
+simplemerchantedit.edit.villager (Default: false) - Allows Editing Villagers
+simplemerchantedit.edit.wandering_trader (Default: false) - Allows Editing Wandering Traders
 ```
 
 ### Config:
 ```
-bot-token - Your Discord Bot-Token
-server-id - ID of your Discord Server
-whitelist-role-id - ID of the Whitelist Role
-require-access-role - If Linking should require a specific Access Role
-remove-access-role-on-unlink - If the Access Role should also be removed when UnLinking
-access-role-id - ID of the Access Role
-use-linking-channel - If Linking should be restricted to a specific Linking Channel
-linking-channel-id - ID of the Linking Channel
+edit-villagers - Toggle if Editing Villagers is Allowed
+edit-wandering-traders - Toggle if Editing Wandering Traders is Allowed
 ```
