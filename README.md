@@ -3,6 +3,7 @@
   
   <h1>SimpleMerchantEdit</h1>
   <a href="https://modrinth.com/plugin/simple_merchant_edit/versions">
+    <img src="https://img.shields.io/modrinth/v/simple_merchant_edit?style=for-the-badge&label=Version&color=5A00FF">
     <img src="https://img.shields.io/modrinth/dt/simple_merchant_edit?style=for-the-badge&label=Downloads&color=29A100">
   </a>
 </div>
