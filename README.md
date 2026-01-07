@@ -11,7 +11,7 @@
 
 ## 🎯 Features
 - **Edit Trades**  
-Right-Click a Villager or Wandering Trader to open the Trade Editor GUI.  
+Shift + Right-Click a Villager or Wandering Trader to open the Trade Editor GUI.  
 Modify, Add or Remove Trades and their Settings with just a few Clicks.
 
 ####
