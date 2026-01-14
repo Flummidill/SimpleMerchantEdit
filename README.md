@@ -23,7 +23,7 @@ Easily change their Profession, Level and Appearance.
 ####
 
 - **Fully Vanilla Compatible**  
-Edit normal Vanilla Merchants instead of only being able to modify custom ones (Like with <a href="#">Shopkeepers</a> or <a href="#">VTE</a>).  
+Edit normal Vanilla Merchants instead of only being able to modify custom ones.  
 Because of that Merchants keep their Trades, even after Removing the Plugin.
 
 
